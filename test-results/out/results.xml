@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Unit, component tests" tests="7" failures="0" time="4.332">
+  <testsuite name="given an `Button` component" errors="0" failures="0" skipped="0" timestamp="2020-06-14T21:12:58" time="1.653" tests="1">
+    <testcase classname="given an `Button` component when it is rendered should match snapshot" name="given an `Button` component when it is rendered should match snapshot" time="0.036">
+    </testcase>
+  </testsuite>
+  <testsuite name="given an `InputText` component" errors="0" failures="0" skipped="0" timestamp="2020-06-14T21:12:58" time="1.646" tests="2">
+    <testcase classname="given an `InputText` component when it is rendered should match snapshot" name="given an `InputText` component when it is rendered should match snapshot" time="0.042">
+    </testcase>
+    <testcase classname="given an `InputText` component when its text changes should return its value with `onChange`" name="given an `InputText` component when its text changes should return its value with `onChange`" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="given a `submitLogin` util" errors="0" failures="0" skipped="0" timestamp="2020-06-14T21:12:59" time="0.126" tests="3">
+    <testcase classname="given a `submitLogin` util when it is called with incorrect details should return false" name="given a `submitLogin` util when it is called with incorrect details should return false" time="0.001">
+    </testcase>
+    <testcase classname="given a `submitLogin` util when it is called with `master` details should return false" name="given a `submitLogin` util when it is called with `master` details should return false" time="0">
+    </testcase>
+    <testcase classname="given a `submitLogin` util when it is called with the correct details should log us in" name="given a `submitLogin` util when it is called with the correct details should log us in" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="given an `Login` component" errors="0" failures="0" skipped="0" timestamp="2020-06-14T21:13:00" time="0.894" tests="1">
+    <testcase classname="given an `Login` component when it is rendered should match snapshot" name="given an `Login` component when it is rendered should match snapshot" time="0.018">
+    </testcase>
+  </testsuite>
+</testsuites>

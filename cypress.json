@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "screenshotsFolder": "cypress/debug/screenshots",
+  "videosFolder": "cypress/debug/videos",
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 60000,
+  "responseTimeout": 60000,
+  "video": false,
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "integrationFolder": "./cypress/integration"
+}

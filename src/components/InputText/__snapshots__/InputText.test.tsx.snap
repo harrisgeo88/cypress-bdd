@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given an \`InputText\` component when it is rendered should match snapshot 1`] = `
+<div
+  class="InputTextcomponents__InputTextWrapper-sc-11nm3a5-0 ehojjc"
+>
+  <input
+    class="InputTextcomponents__Input-sc-11nm3a5-1 lhFXMG"
+    value=""
+  />
+</div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given an \`Button\` component when it is rendered should match snapshot 1`] = `
+<button
+  class="Buttonstyles__ButtonWrapper-sc-11g5hpj-0 gvIbjm"
+  type="button"
+>
+  Go
+</button>
+`;
