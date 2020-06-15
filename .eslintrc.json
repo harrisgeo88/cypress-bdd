@@ -39,5 +39,6 @@
         "allow": ["warn", "error"]
       }
     ]
-  }
+  },
+  "ignorePatterns": ["cypress"]
 }

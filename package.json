@@ -1,6 +1,10 @@
 {
-  "name": "with-typescript-eslint-jest",
-  "author": "@erikdstock",
+  "name": "cypress-bdd",
+  "author": {
+    "email": "charilaoss@gmail.com",
+    "name": "Harris Geo",
+    "url": "https://harrisgeo.me"
+  },
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
