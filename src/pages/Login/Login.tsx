@@ -10,7 +10,9 @@ export const Login = () => {
   const [loggedIn, setLoggedIn] = useState(false)
 
   const handleClick = () => {
-    submitLogin(username, password, setLoggedIn)
+    if (submitLogin(username, password)) {
+      setLoggedIn(true)
+    }
   }
 
   // const handleClick = () => {
@@ -25,26 +27,26 @@ export const Login = () => {
         {!loggedIn && (
           <>
             <InputText
-              placeholder="Username"
-              data-testid="username"
+              placeholder='Username'
+              data-testid='username'
               value={username}
-              onChange={(value) => setUsername(value)}
+              onChange={value => setUsername(value)}
             />
             <InputText
-              type="password"
-              data-testid="password"
-              placeholder="Password"
+              type='password'
+              data-testid='password'
+              placeholder='Password'
               value={password}
-              onChange={(value) => setPassword(value)}
+              onChange={value => setPassword(value)}
             />
-            <Button data-testid="submit" onClick={handleClick}>
+            <Button data-testid='submit' onClick={handleClick}>
               Submit
             </Button>
           </>
         )}
         {loggedIn && (
           <>
-            <div data-testid="loggedin">You are logged in</div>
+            <div data-testid='loggedin'>You are logged in</div>
           </>
         )}
       </Wrapper>

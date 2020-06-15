@@ -1,19 +1,19 @@
 import { submitLogin } from './Login.utils'
 
 describe('given a `submitLogin` util', () => {
-  describe('when it is called with incorrect details', () => {
-    it('should return false', () => {
-      expect(submitLogin('user', 'pass')).toEqual(false)
+  describe('when we pass ivvalid details', () => {
+    it('should return true', () => {
+      expect(submitLogin('harrisgeo88', 'pass1')).toEqual(false)
     })
   })
-  describe('when it is called with `master` details', () => {
-    it('should return false', () => {
-      expect(submitLogin('master', 'pass')).toEqual(true)
-    })
-  })
-  describe('when it is called with the correct details', () => {
-    it('should log us in', () => {
+  describe('when we pass valid details', () => {
+    it('should return true', () => {
       expect(submitLogin('harrisgeo88', 'pass')).toEqual(true)
+    })
+  })
+  describe('when we pass valid `admin` details', () => {
+    it('should return true', () => {
+      expect(submitLogin('admin', 'pass')).toEqual(true)
     })
   })
 })
