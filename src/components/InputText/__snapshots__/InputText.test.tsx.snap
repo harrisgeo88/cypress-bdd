@@ -2,10 +2,10 @@
 
 exports[`given an \`InputText\` component when it is rendered should match snapshot 1`] = `
 <div
-  class="InputTextcomponents__InputTextWrapper-sc-11nm3a5-0 ehojjc"
+  class="InputTextcomponents__InputTextWrapper-sc-1h6abf-0 kaoWTK"
 >
   <input
-    class="InputTextcomponents__Input-sc-11nm3a5-1 lhFXMG"
+    class="InputTextcomponents__Input-sc-1h6abf-1 etRIWg"
     value=""
   />
 </div>

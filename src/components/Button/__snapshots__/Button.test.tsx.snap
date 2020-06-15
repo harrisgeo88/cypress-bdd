@@ -2,7 +2,7 @@
 
 exports[`given an \`Button\` component when it is rendered should match snapshot 1`] = `
 <button
-  class="Buttonstyles__ButtonWrapper-sc-11g5hpj-0 gvIbjm"
+  class="Buttonstyles__ButtonWrapper-sc-122i168-0 cYIjLd"
   type="button"
 >
   Go

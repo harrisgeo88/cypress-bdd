@@ -1,16 +1,9 @@
 module.exports = {
   roots: ['<rootDir>'],
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  moduleFileExtensions: ['js', 'ts', 'tsx', 'json'],
   testPathIgnorePatterns: [
-    '<rootDir>/test',
-    '<rootDir>/src',
-    '<rootDir>/cypress',
-    '<rootDir>/node_modules',
-    '<rootDir>/generate',
-    '<rootDir>/_docs',
-    '<rootDir>/build',
+    '<rootDir>[/\\\\](node_modules|.next|cypress|test)[/\\\\]',
   ],
-  transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(ts|tsx)$'],
   transform: {
     '^.+\\.(ts|tsx)$': 'babel-jest',
   },
@@ -49,7 +42,7 @@ module.exports = {
   globals: {
     'ts-jest': {
       diagnostics: false,
-      tsConfig: 'tsconfig.json',
+      tsConfig: '<rootDir>/tsconfig.server.json',
     },
   },
   reporters: [

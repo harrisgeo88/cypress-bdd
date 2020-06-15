@@ -2,26 +2,26 @@
 
 exports[`given an \`Login\` component when it is rendered should match snapshot 1`] = `
 <div
-  class="Layoutstyles__Layout-sc-8y4jny-0 cDaGbz"
+  class="Layoutstyles__Layout-sc-1ev6531-0 iHQFfY"
 >
   <div
-    class="Layoutstyles__Wrapper-sc-8y4jny-1 cwLOSA"
+    class="Layoutstyles__Wrapper-sc-1ev6531-1 fcaCQz"
   >
     <div
-      class="InputTextcomponents__InputTextWrapper-sc-11nm3a5-0 ehojjc"
+      class="InputTextcomponents__InputTextWrapper-sc-1h6abf-0 kaoWTK"
     >
       <input
-        class="InputTextcomponents__Input-sc-11nm3a5-1 lhFXMG"
+        class="InputTextcomponents__Input-sc-1h6abf-1 etRIWg"
         data-testid="username"
         placeholder="Username"
         value=""
       />
     </div>
     <div
-      class="InputTextcomponents__InputTextWrapper-sc-11nm3a5-0 ehojjc"
+      class="InputTextcomponents__InputTextWrapper-sc-1h6abf-0 kaoWTK"
     >
       <input
-        class="InputTextcomponents__Input-sc-11nm3a5-1 lhFXMG"
+        class="InputTextcomponents__Input-sc-1h6abf-1 etRIWg"
         data-testid="password"
         placeholder="Password"
         type="password"
@@ -29,7 +29,7 @@ exports[`given an \`Login\` component when it is rendered should match snapshot 
       />
     </div>
     <button
-      class="Buttonstyles__ButtonWrapper-sc-11g5hpj-0 gvIbjm"
+      class="Buttonstyles__ButtonWrapper-sc-122i168-0 cYIjLd"
       data-testid="submit"
       type="button"
     >
